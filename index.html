@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <button class="start_btn">START QUIZ</button>
+    <div class="info_box">
+        <div class="info_title">
+            <span>Rules of the game</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You cant leave when you start</div>
+            <div class="info">2. Start only when youre ready</div>
+            <div class="info">3. Select only the right answer</div>
+            <div class="info">4. Only one of the answer is correct</div>
+            <div class="info">5. Do not use AI</div>
+            <div class="info">6. You can submit when youre done</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">EXIT QUIZ</button>
+            <button class="restart">CONTINUE</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+    <div class="title">QUIZ QUESTIONS</div>
+    <div class="timer">
+        <div class="time_text">Time Left</div>
+        <div class="timer_sec">50</div>
+    </div>
+    </header>
+    <section>
+        <div class="que_text">
+            <span>What is Github Used for?</span>
+        </div>
+        <div class="option_list">
+            <div class="option">
+                <span>For Typing</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>For Typing</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>For Storing</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="option">
+                <span>For sAVING</span>
+                <div class="icon cross"><i class="fas fa-check"></i></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="total_que">
+            <span><p>1</p><p>of</p><p>50</p><p>QUESTIONS</p></span>
+        </div>
+        <button class="next_btn">Next QUESTION</button>
+    </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've Completed the Quiz</div>
+        <div class="score_text">
+            <span>and sorry, you got only <p>2 </p>of <p>50</span>
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- IMPORTANT -->
+</head>
+<body>
+
+  <!-- START BUTTON -->
+  <button class="start_btn">Start Quiz</button>
+
+  <!-- QUIZ BOX -->
+  <div class="quiz_box">
+
+    <!-- HEADER -->
+    <header>
+      <div class="title">Quiz Questions</div>
+      <div class="timer">
+        <span>Time Left:</span>
+        <span class="timer_sec">15</span>
+      </div>
+    </header>
+
+    <!-- QUESTION -->
+    <section>
+      <div class="question_text"></div>
+      <div class="option_list"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="total_que">
+        <span><p class="current">1</p> of <p class="total">50</p></span>
+      </div>
+      <button class="next_btn" style="display:none;">Next</button>
+    </footer>
+
+  </div>
+
+  <!-- RESULT BOX -->
+  <div class="result_box">
+
+    <div class="icon">
+      <i class="fas fa-crown"></i>
+    </div>
+
+    <div class="complete_text">You've completed the quiz!</div>
+    <div class="score_text"></div>
+
+    <div class="buttons">
+      <button class="restart">Replay Quiz</button>
+      <button class="quit">Quit Quiz</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
